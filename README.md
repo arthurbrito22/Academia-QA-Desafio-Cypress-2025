@@ -1,0 +1,1 @@
+# Academia-QA-Desafio-Cypress-2025
