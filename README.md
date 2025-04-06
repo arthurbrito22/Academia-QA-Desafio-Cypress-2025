@@ -75,6 +75,7 @@ Para executar os testes, utilize um dos comandos abaixo:
 A estrutura principal do projeto é a seguinte:
 
 ![EstruturaProjeto](cypress/assets/EstruturaProjeto.png)
+![EstruturaProjeto2](cypress/assets/EstruturaProjeto2.png)
 
 ## Comandos Personalizados
 
