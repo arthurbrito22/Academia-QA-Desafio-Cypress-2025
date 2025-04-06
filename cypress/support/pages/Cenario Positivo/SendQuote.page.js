@@ -23,11 +23,11 @@ Cypress.Commands.add('adicionarUsername', () => {
 });
 
 Cypress.Commands.add('adicionarSenha', () => {
-    cy.get(INPUT_PASS).type('Teste123@');
+    cy.get(INPUT_PASS).type(Cypress.env('senha'), {log: false});
 });
 
 Cypress.Commands.add('adicionarConfSenha', () => {
-    cy.get(INPUT_CONF_PASS).type('Teste123@');
+    cy.get(INPUT_CONF_PASS).type(Cypress.env('senha'), {log: false});
 });
 
 
