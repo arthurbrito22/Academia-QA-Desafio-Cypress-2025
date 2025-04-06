@@ -15,13 +15,22 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import './pages/home.page'
-import './pages/EnterVehicleData.page'
-import './pages/InsurantData.page'
-import './pages/ProductData.page'
-import './pages/PriceOption.page'
-import './pages/SendQuote.page'
+import './pages/Cenario Positivo/home.page'
+import './pages/Cenario Positivo/EnterVehicleData.page'
+import './pages/Cenario Positivo/InsurantData.page'
+import './pages/Cenario Positivo/ProductData.page'
+import './pages/Cenario Positivo/PriceOption.page'
+import './pages/Cenario Positivo/SendQuote.page'
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
-  });
+});
+
+
+import './commands'
+import './pages/Cenario Negativo/home.page'
+import './pages/Cenario Negativo/EnterVehicleData.page'
+import './pages/Cenario Negativo/InsurantData.page'
+import './pages/Cenario Negativo/ProductData.page'
+import './pages/Cenario Negativo/PriceOption.page'
+import './pages/Cenario Negativo/SendQuote.page'
